@@ -1,0 +1,321 @@
+2020-05-09 16:23:44,779 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 16:23:44,784 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2020-05-09 16:23:44,784 - octoprint.server - INFO - OctoPrint 1.3.12
+2020-05-09 16:23:44,794 - octoprint.plugin.core - INFO - 25 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  BetterHeaterTimeout (1.2.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_BetterHeaterTimeout
+|  Core Wizard (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Cost Plugin (0.1.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_cost
+|  Discovery (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  EEPROM Editor for MPSM (0.1.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_eeprom_MPSelectMini
+|  Error Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  FineTuneRptr (1.3.6.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_finetunerptr
+|  Firmware Updater (1.6.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_firmwareupdater
+|  Force Login (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  HeaterTimeout (0.0.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_HeaterTimeout
+|  Logging (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Octolapse (0.3.4) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_octolapse
+|  Pi Support Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Print History Plugin (1.2) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_printhistory
+|  Printer Safety Check (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  PrintTimeGenius Plugin (2.2.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_PrintTimeGenius
+|  Software Update (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.5.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_telegram
+|  Virtual Printer (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-09 16:23:44,820 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 918183936
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|  python:
+|    pip: '18.0'
+|    version: 2.7.13
+|    virtualenv: /home/pi/OctoPrint/venv
+2020-05-09 16:23:44,821 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2020-05-09 16:38:44,782 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 16:53:44,783 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 17:08:44,787 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 17:23:44,788 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 17:38:44,791 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 17:53:44,794 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 18:08:44,796 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 18:23:44,797 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 18:38:44,799 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 18:53:44,802 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 19:08:44,804 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 19:23:44,805 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 19:38:44,808 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 19:53:44,810 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 20:08:44,813 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 20:23:44,815 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 20:38:44,816 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 20:53:44,817 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 21:08:44,820 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 21:17:14,779 - octoprint.startup - INFO - ******************************************************************************
+2020-05-09 21:17:14,784 - octoprint.startup - INFO - Starting OctoPrint 1.3.12
+2020-05-09 21:17:14,788 - octoprint.startup - INFO - ******************************************************************************
+2020-05-09 21:17:16,678 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-05-09 21:17:23,054 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2020-05-09 21:17:23,142 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-09 21:17:26,232 - octoprint.plugins.octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2020-05-09 21:17:26,252 - octoprint.plugin.core - INFO - Found 25 plugin(s) providing 25 mixin implementations, 45 hook handlers
+2020-05-09 21:17:27,076 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-05-09 21:17:27,131 - octoprint.server - INFO - Intermediary server started
+2020-05-09 21:17:27,131 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-09 21:17:27,831 - octoprint.plugin.core - INFO - Found 25 plugin(s) providing 25 mixin implementations, 45 hook handlers
+2020-05-09 21:17:27,873 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2020-05-09 21:17:28,611 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2020-05-09 21:17:28,641 - octoprint.printer.standard - INFO - Using print time estimator provided by PrintTimeGenius
+2020-05-09 21:17:28,872 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2020-05-09 21:17:30,910 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-09 21:17:32,545 - octoprint.util.pip - INFO - Version of pip is 18.0
+2020-05-09 21:17:32,547 - octoprint.util.pip - INFO - pip installs to /home/pi/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-09 21:17:32,548 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-09 21:17:32,555 - octoprint.plugin.core - INFO - Initialized 25 plugin implementation(s)
+2020-05-09 21:17:32,585 - octoprint.plugin.core - INFO - 25 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  BetterHeaterTimeout (1.2.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_BetterHeaterTimeout
+|  Core Wizard (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Cost Plugin (0.1.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_cost
+|  Discovery (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  EEPROM Editor for MPSM (0.1.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_eeprom_MPSelectMini
+|  Error Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  FineTuneRptr (1.3.6.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_finetunerptr
+|  Firmware Updater (1.6.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_firmwareupdater
+|  Force Login (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  HeaterTimeout (0.0.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_HeaterTimeout
+|  Logging (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Octolapse (0.3.4) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_octolapse
+|  Pi Support Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Print History Plugin (1.2) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_printhistory
+|  Printer Safety Check (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  PrintTimeGenius Plugin (2.2.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_PrintTimeGenius
+|  Software Update (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.5.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_telegram
+|  Virtual Printer (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-09 21:17:32,604 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 918183936
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|  python:
+|    pip: '18.0'
+|    version: 2.7.13
+|    virtualenv: /home/pi/OctoPrint/venv
+2020-05-09 21:17:32,618 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2020-05-09 21:17:32,638 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2020-05-09 21:17:32,686 - octoprint.plugins.octolapse - INFO - Octolapse is loading assets.
+2020-05-09 21:17:34,163 - octoprint.server - INFO - Shutting down intermediary server...
+2020-05-09 21:17:34,272 - octoprint.server - INFO - Intermediary server shut down
+2020-05-09 21:17:34,275 - octoprint.events - INFO - Processing startup event, this is our first event
+2020-05-09 21:17:34,276 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2020-05-09 21:17:34,311 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2020-05-09 21:17:34,363 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2020-05-09 21:17:34,396 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-05-09 21:17:34,901 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2020-05-09 21:17:34,903 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2020-05-09 21:17:34,923 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2020-05-09 21:17:34,999 - octoprint.server - INFO - Listening on http://0.0.0.0:5000 and http://[::]:5000
+2020-05-09 21:17:35,005 - octoprint.plugins.octolapse - INFO - Loading existing settings file from: /home/pi/.octoprint/data/octolapse/settings.json.
+2020-05-09 21:17:35,123 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2020-05-09 21:17:36,738 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-09 21:17:36,740 - octoprint.util.pip - INFO - pip installs to /home/pi/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-09 21:17:36,741 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-09 21:17:36,777 - octoprint.plugins.HeaterTimeout - INFO - Starting up...
+2020-05-09 21:27:06,057 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 6.4s
+2020-05-09 21:27:06,411 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2020-05-09 21:27:06,617 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 6.3s
+2020-05-09 21:27:08,303 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2020-05-09 21:27:12,748 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 6.3s
+2020-05-09 21:27:13,365 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 6.4s
+2020-05-09 21:27:14,409 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-09 21:27:14,474 - octoprint.plugins.telegram - INFO - Sending a message: 💂 Eh I ready leh, what you want to print? Else I'm going to just zhuo bo 💂 with_image=True with_gif=False chatID= -464514632
+2020-05-09 21:27:21,214 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.1.109:5000/'}
+2020-05-09 21:27:21,539 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 6.6s
+2020-05-09 21:27:21,650 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 6.5s
+2020-05-09 21:27:22,362 - octoprint.plugins.telegram - INFO - Sending a message: 💂 Eh I ready leh, what you want to print? Else I'm going to just zhuo bo 💂 with_image=True with_gif=False chatID= -414741643
+2020-05-09 21:27:28,172 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 6.4s
+2020-05-09 21:27:28,188 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 6.5s
+2020-05-09 21:27:29,876 - octoprint.plugins.telegram - INFO - Sending a message: 💂 Eh I ready leh, what you want to print? Else I'm going to just zhuo bo 💂 with_image=True with_gif=False chatID= 70323754
+2020-05-09 21:27:35,827 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 7.4s
+2020-05-09 21:27:35,921 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 7.4s
+2020-05-09 21:27:41,208 - octoprint.server.preemptive_cache - INFO - ... done in 19.99s
+2020-05-09 21:27:41,209 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://158.140.136.216:8998/'}
+2020-05-09 21:27:45,718 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-09 21:27:47,214 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-09 21:27:47,606 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-09 21:27:47,860 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-09 21:27:50,422 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-09 21:27:50,437 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-09 21:27:51,375 - octoprint.server.preemptive_cache - INFO - ... done in 10.17s
+2020-05-09 21:32:27,078 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 21:47:27,081 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 22:02:27,084 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 22:17:27,086 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 22:32:27,088 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 22:47:27,092 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 23:02:27,093 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 23:17:27,095 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 23:32:27,097 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-09 23:47:27,099 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 00:02:27,102 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 00:17:27,103 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 00:32:27,106 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 00:47:27,108 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 01:02:27,111 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 01:17:27,113 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 01:32:27,115 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 01:47:27,118 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 02:02:27,119 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 02:17:27,122 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 02:32:27,124 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 02:47:27,127 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 03:02:27,130 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 03:17:27,136 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 03:32:27,137 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 03:47:27,141 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 04:02:27,144 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 04:17:27,146 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 04:32:27,149 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 04:47:27,150 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 05:02:27,153 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 05:17:27,155 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 05:32:27,158 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 05:47:27,160 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 06:02:27,163 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 06:03:03,690 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-10 06:03:03,704 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-10 06:03:06,568 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-10 06:03:06,941 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-10 06:03:07,269 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-10 06:03:07,323 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-10 06:03:07,602 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-10 06:03:07,613 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-10 06:17:27,165 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 06:19:17,017 - tornado.general - WARNING - error on read: [Errno 113] No route to host
+2020-05-10 06:19:17,025 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-10 06:19:35,577 - tornado.general - WARNING - error on read: [Errno 113] No route to host
+2020-05-10 06:19:35,584 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-10 06:32:27,168 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 06:47:27,170 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 07:02:27,173 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 07:17:27,177 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 07:32:27,179 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 07:47:27,183 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 08:02:27,186 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 08:17:27,187 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 08:32:27,190 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 08:47:27,192 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 09:02:27,194 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 09:17:27,196 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 09:32:27,198 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 09:47:27,201 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 10:02:27,205 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 10:17:27,208 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 10:32:27,209 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 10:47:27,213 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 11:02:27,216 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 11:17:27,219 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 11:32:27,221 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 11:47:27,225 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 12:02:27,228 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 12:05:00,865 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6adf7990>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-10 12:17:27,231 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 12:32:27,234 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 12:45:35,745 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-10 12:45:36,102 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-10 12:45:36,436 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-10 12:45:36,459 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-10 12:45:36,471 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-10 12:45:36,504 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-10 12:47:27,236 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 13:02:27,239 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 13:17:27,240 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 13:32:27,243 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 13:47:27,244 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 14:02:27,247 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 14:17:27,249 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 14:32:27,251 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 14:47:27,254 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 15:02:27,255 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 15:17:27,257 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 15:32:27,259 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 15:47:27,261 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 16:02:27,264 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 16:17:27,268 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 16:32:27,272 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 16:47:27,275 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 16:49:31,788 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x680a7610>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-10 17:02:27,278 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 17:17:27,281 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 17:32:27,283 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 17:47:19,974 - octoprint.util.connectivity_checker - INFO - Connectivity changed from online to offline
+2020-05-10 17:47:20,059 - octoprint.plugins.pluginmanager - INFO - Looks like we are offline, can't fetch repository from network
+2020-05-10 17:47:20,061 - octoprint.plugins.pluginmanager - INFO - Looks like we are offline, can't fetch notices from network
+2020-05-10 17:47:20,488 - octoprint.plugins.pluginmanager - INFO - Looks like we are offline, can't fetch repository from network
+2020-05-10 17:47:20,488 - octoprint.plugins.pluginmanager - INFO - Looks like we are offline, can't fetch notices from network
+2020-05-10 17:47:27,286 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 18:02:27,288 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 18:17:19,984 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-05-10 18:17:26,252 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2020-05-10 18:17:26,308 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 6.3s
+2020-05-10 18:17:26,358 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 6.2s
+2020-05-10 18:17:27,306 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 18:17:28,120 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-10 18:17:28,200 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-10 18:17:28,427 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-10 18:17:28,493 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-10 18:17:29,056 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-10 18:17:32,949 - octoprint.util.pip - INFO - pip installs to /home/pi/OctoPrint/venv/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-10 18:17:32,950 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-10 18:17:33,279 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 6.1s
+2020-05-10 18:17:33,617 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 6.3s
+2020-05-10 18:17:34,688 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2020-05-10 18:17:41,072 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 6.2s
+2020-05-10 18:17:41,763 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 6.2s
+2020-05-10 18:17:44,300 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-05-10 18:17:47,331 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 6.2s
+2020-05-10 18:17:47,651 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 5.8s
+2020-05-10 18:17:53,250 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 5.8s
+2020-05-10 18:17:53,953 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 6.2s
+2020-05-10 18:32:27,308 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 18:47:27,311 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 19:02:27,313 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 19:17:27,316 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 19:32:27,319 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 19:47:27,322 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 20:02:27,323 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 20:17:27,326 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 20:32:27,328 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 20:47:27,329 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-10 20:56:09,245 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-10 20:56:09,253 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-10 20:56:11,612 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-10 20:56:11,986 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-10 20:56:12,311 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-10 20:56:12,334 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-10 20:56:12,630 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-10 20:56:12,642 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-10 21:02:27,332 - octoprint.server.heartbeat - INFO - Server heartbeat <3

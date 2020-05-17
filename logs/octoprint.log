@@ -1,0 +1,430 @@
+2020-05-17 03:59:08,596 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 03:59:08,604 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2020-05-17 03:59:08,605 - octoprint.server - INFO - OctoPrint 1.3.12
+2020-05-17 03:59:08,614 - octoprint.plugin.core - INFO - 25 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  BetterHeaterTimeout (1.2.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_BetterHeaterTimeout
+|  Core Wizard (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Cost Plugin (0.1.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_cost
+|  Discovery (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  EEPROM Editor for MPSM (0.1.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_eeprom_MPSelectMini
+|  Error Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  FineTuneRptr (1.3.6.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_finetunerptr
+|  Firmware Updater (1.6.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_firmwareupdater
+|  Force Login (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  HeaterTimeout (0.0.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_HeaterTimeout
+|  Logging (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Octolapse (0.3.4) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_octolapse
+|  Pi Support Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Print History Plugin (1.2) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_printhistory
+|  Printer Safety Check (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  PrintTimeGenius Plugin (2.2.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_PrintTimeGenius
+|  Software Update (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.5.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_telegram
+|  Virtual Printer (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-17 03:59:08,640 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 918183936
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|  python:
+|    pip: '18.0'
+|    version: 2.7.13
+|    virtualenv: /home/pi/OctoPrint/venv
+2020-05-17 03:59:08,640 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2020-05-17 04:14:08,600 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 04:29:08,603 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 04:44:08,606 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 04:59:08,609 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 05:14:08,610 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 05:29:08,614 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 05:44:08,616 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 05:59:08,619 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 06:14:08,622 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 06:29:08,626 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 06:36:31,252 - octoprint.server - INFO - Shutting down...
+2020-05-17 06:36:32,080 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2020-05-17 06:36:32,082 - octoprint.events - INFO - Event loop shut down
+2020-05-17 06:36:32,097 - octoprint.plugins.HeaterTimeout - INFO - Shutting down...
+2020-05-17 06:36:32,107 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 06:36:32,111 - octoprint.plugins.telegram - INFO - Sending a message: 🐙 💤 I zhao hor? Byebye... with_image=False with_gif=False chatID= -464514632
+2020-05-17 06:36:32,119 - octoprint.plugins.telegram - INFO - Sending a message: 🐙 💤 I zhao hor? Byebye... with_image=False with_gif=False chatID= -414741643
+2020-05-17 06:36:32,127 - octoprint.plugins.telegram - INFO - Sending a message: 🐙 💤 I zhao hor? Byebye... with_image=False with_gif=False chatID= 70323754
+2020-05-17 06:36:32,135 - octoprint.server - INFO - Goodbye!
+2020-05-17 06:36:46,865 - octoprint.startup - INFO - ******************************************************************************
+2020-05-17 06:36:46,867 - octoprint.startup - INFO - Starting OctoPrint 1.3.12
+2020-05-17 06:36:46,874 - octoprint.startup - INFO - ******************************************************************************
+2020-05-17 06:36:48,855 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2020-05-17 06:36:55,008 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2020-05-17 06:36:55,132 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-17 06:36:58,337 - octoprint.plugins.octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2020-05-17 06:36:58,358 - octoprint.plugin.core - INFO - Found 25 plugin(s) providing 25 mixin implementations, 45 hook handlers
+2020-05-17 06:36:59,228 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2020-05-17 06:36:59,286 - octoprint.server - INFO - Intermediary server started
+2020-05-17 06:36:59,288 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2020-05-17 06:37:00,005 - octoprint.plugin.core - INFO - Found 25 plugin(s) providing 25 mixin implementations, 45 hook handlers
+2020-05-17 06:37:00,050 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2020-05-17 06:37:00,829 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2020-05-17 06:37:00,861 - octoprint.printer.standard - INFO - Using print time estimator provided by PrintTimeGenius
+2020-05-17 06:37:01,043 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2020-05-17 06:37:03,159 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-17 06:37:04,842 - octoprint.util.pip - INFO - Version of pip is 18.0
+2020-05-17 06:37:04,844 - octoprint.util.pip - INFO - pip installs to /home/pi/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-17 06:37:04,845 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-17 06:37:04,852 - octoprint.plugin.core - INFO - Initialized 25 plugin implementation(s)
+2020-05-17 06:37:04,881 - octoprint.plugin.core - INFO - 25 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  BetterHeaterTimeout (1.2.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_BetterHeaterTimeout
+|  Core Wizard (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Cost Plugin (0.1.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_cost
+|  Discovery (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  EEPROM Editor for MPSM (0.1.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_eeprom_MPSelectMini
+|  Error Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  FineTuneRptr (1.3.6.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_finetunerptr
+|  Firmware Updater (1.6.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_firmwareupdater
+|  Force Login (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  HeaterTimeout (0.0.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_HeaterTimeout
+|  Logging (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Octolapse (0.3.4) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_octolapse
+|  Pi Support Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Print History Plugin (1.2) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_printhistory
+|  Printer Safety Check (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  PrintTimeGenius Plugin (2.2.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_PrintTimeGenius
+|  Software Update (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.5.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_telegram
+|  Virtual Printer (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-17 06:37:04,899 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 918183936
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|  python:
+|    pip: '18.0'
+|    version: 2.7.13
+|    virtualenv: /home/pi/OctoPrint/venv
+2020-05-17 06:37:04,914 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2020-05-17 06:37:04,933 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2020-05-17 06:37:04,981 - octoprint.plugins.octolapse - INFO - Octolapse is loading assets.
+2020-05-17 06:37:06,393 - octoprint.server - INFO - Shutting down intermediary server...
+2020-05-17 06:37:06,405 - octoprint.server - INFO - Intermediary server shut down
+2020-05-17 06:37:06,408 - octoprint.events - INFO - Processing startup event, this is our first event
+2020-05-17 06:37:06,442 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2020-05-17 06:37:06,443 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2020-05-17 06:37:06,459 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2020-05-17 06:37:06,988 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2020-05-17 06:37:06,990 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2020-05-17 06:37:06,992 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2020-05-17 06:37:06,996 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2020-05-17 06:37:07,010 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-17 06:37:07,022 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-17 06:37:07,032 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2020-05-17 06:37:07,038 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2020-05-17 06:37:07,046 - octoprint.plugins.firmwareupdater - INFO - Got CONNECTED event
+2020-05-17 06:37:07,047 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-17 06:37:07,050 - octoprint.plugins.firmwareupdater - INFO - Run postflash flag is not set
+2020-05-17 06:37:07,071 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin bugfix-2.0.x (Github)"
+2020-05-17 06:37:07,090 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2020-05-17 06:37:07,143 - octoprint.server - INFO - Listening on http://0.0.0.0:5000 and http://[::]:5000
+2020-05-17 06:37:07,149 - octoprint.plugins.octolapse - INFO - Loading existing settings file from: /home/pi/.octoprint/data/octolapse/settings.json.
+2020-05-17 06:37:08,880 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-17 06:37:08,882 - octoprint.util.pip - INFO - pip installs to /home/pi/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-17 06:37:08,883 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-17 06:49:48,293 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 06:49:49,086 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2020-05-17 06:49:50,131 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2020-05-17 06:49:50,911 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-17 06:49:50,912 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-05-17 06:49:50,922 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-17 06:49:51,884 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-17 06:49:51,911 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2020-05-17 06:49:51,965 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-17 06:49:52,140 - octoprint.util.pip - INFO - Using "/home/pi/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2020-05-17 06:50:10,217 - octoprint.util.pip - INFO - pip installs to /home/pi/OctoPrint/venv/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2020-05-17 06:50:10,218 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2020-05-17 06:50:11,432 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-17 06:50:11,797 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 06:50:21,286 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2020-05-17 06:50:21,288 - octoprint.plugins.HeaterTimeout - INFO - Starting up...
+2020-05-17 06:50:21,574 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-17 06:50:33,433 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 06:50:33,438 - octoprint.plugins.telegram - INFO - Sending a message: 💂 Eh I ready leh, what you want to print? Else I'm going to just zhuo bo 💂 with_image=True with_gif=False chatID= -464514632
+2020-05-17 06:50:39,509 - octoprint.plugins.telegram - INFO - Sending a message: 💂 Eh I ready leh, what you want to print? Else I'm going to just zhuo bo 💂 with_image=True with_gif=False chatID= -414741643
+2020-05-17 06:50:40,263 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.1.109:5000/'}
+2020-05-17 06:50:40,344 - octoprint.server.preemptive_cache - INFO - ... done in 0.08s
+2020-05-17 06:50:45,617 - octoprint.plugins.telegram - INFO - Sending a message: 💂 Eh I ready leh, what you want to print? Else I'm going to just zhuo bo 💂 with_image=True with_gif=False chatID= 70323754
+2020-05-17 06:51:59,231 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 06:53:04,693 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-17 06:53:04,723 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'query_string': 'l10n=en', 'path': u'/', '_count': 1, '_timestamp': 1589669584.723107, 'base_url': u'http://158.140.136.216:8998/'}
+2020-05-17 06:53:07,226 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-17 06:53:07,569 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-17 06:53:11,194 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-17 06:56:28,674 - octoprint.filemanager.analysis - INFO - Starting analysis of local:touchscreen_stand.gcode
+2020-05-17 06:56:28,701 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: touchscreen_stand.gcode, owner: _api, user: _api
+2020-05-17 06:56:28,723 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-17 06:56:28,734 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: touchscreen_stand.gcode, owner: _api, user: _api
+2020-05-17 06:56:28,747 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 06:56:28,752 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -464514632
+2020-05-17 06:56:28,770 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-17 06:56:28,777 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-17 06:56:30,839 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2020-05-17 06:56:33,243 - octoprint.filemanager.analysis - INFO - Analysis of entry local:touchscreen_stand.gcode finished, needed 4.57s
+2020-05-17 06:56:34,879 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -414741643
+2020-05-17 06:56:40,970 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= 70323754
+2020-05-17 07:05:11,786 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2020-05-17 07:06:59,233 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 07:21:59,234 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 07:36:59,237 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 07:51:59,239 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 07:59:52,151 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x723d1030>: Failed to establish a new connection: [Errno 101] Network is unreachable',)). Waiting 2 minutes before trying again.
+2020-05-17 08:06:59,242 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 08:13:31,576 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-17 08:21:59,244 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 08:36:59,247 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 08:51:59,248 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 09:06:59,251 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 09:21:59,253 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 09:36:59,256 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 09:51:59,259 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 10:06:59,261 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 10:21:59,265 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 10:36:59,277 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 10:49:11,561 - octoprint.util.comm - INFO - Finished in 13962.846 s.
+2020-05-17 10:49:11,564 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2020-05-17 10:49:11,585 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: touchscreen_stand.gcode, owner: _api
+2020-05-17 10:49:11,755 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2020-05-17 10:49:11,874 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 10:49:11,878 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= -464514632
+2020-05-17 10:49:18,085 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= -414741643
+2020-05-17 10:49:24,252 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= 70323754
+2020-05-17 10:51:59,279 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 11:05:15,558 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x72375c90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 11:06:59,282 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 11:16:54,285 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x721f9550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 11:21:59,284 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 11:36:59,287 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 11:51:59,289 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 12:06:59,291 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 12:10:28,719 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x723049d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 12:21:59,293 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 12:24:18,028 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x65fcdad0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 12:27:38,196 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x723574d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 12:36:59,297 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 12:39:42,354 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x721371b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 12:51:59,299 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 12:57:40,203 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x720d8bd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 13:06:59,301 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 13:21:59,303 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 13:36:59,305 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 13:51:59,308 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 13:55:00,302 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x72efa0f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 14:06:59,310 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 14:21:59,312 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 14:36:59,315 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 14:51:59,316 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 15:06:59,318 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 15:19:08,714 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x723621b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 15:21:59,321 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 15:22:54,645 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x65fc74b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 15:36:59,324 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 15:45:25,825 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-17 15:45:28,281 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-17 15:45:28,745 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 15:45:28,762 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-17 15:51:59,326 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 16:00:19,655 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-17 16:00:20,070 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-17 16:00:20,663 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-17 16:01:01,121 - octoprint.filemanager.analysis - INFO - Starting analysis of local:touchscreen_stand.gcode
+2020-05-17 16:01:01,138 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: touchscreen_stand.gcode, owner: _api, user: _api
+2020-05-17 16:01:01,154 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-17 16:01:01,174 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: touchscreen_stand.gcode, owner: _api, user: _api
+2020-05-17 16:01:01,194 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 16:01:01,200 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -464514632
+2020-05-17 16:01:01,201 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-17 16:01:01,214 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-17 16:01:05,479 - octoprint.filemanager.analysis - INFO - Analysis of entry local:touchscreen_stand.gcode finished, needed 4.36s
+2020-05-17 16:01:07,229 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -414741643
+2020-05-17 16:01:13,349 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= 70323754
+2020-05-17 16:02:17,305 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-17 16:02:40,336 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-17 16:02:40,743 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 16:02:40,760 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-17 16:05:28,603 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 16:05:28,707 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-17 16:05:29,271 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-17 16:05:29,708 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 16:05:36,982 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 5.8s
+2020-05-17 16:05:43,199 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 5.9s
+2020-05-17 16:05:50,254 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 5.9s
+2020-05-17 16:05:56,432 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 6.1s
+2020-05-17 16:06:02,641 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 6.1s
+2020-05-17 16:06:08,948 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2020-05-17 16:06:09,493 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-17 16:06:59,329 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 16:13:46,316 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-17 16:13:53,867 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-17 16:14:00,402 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-17 16:14:07,631 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 16:14:08,678 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-17 16:14:09,095 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 16:14:11,644 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-17 16:14:54,720 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-17 16:21:59,330 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 16:36:59,333 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 16:39:12,766 - tornado.access - WARNING - 404 GET http://clientapi.ipip.net/echo.php?info=20200517163912 (139.162.83.10) 18.20ms
+2020-05-17 16:47:22,256 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2020-05-17 16:47:22,271 - octoprint.util.comm - INFO - Force-sending M108 to the printer
+2020-05-17 16:47:22,283 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: touchscreen_stand.gcode, owner: _api, user: cairo
+2020-05-17 16:47:22,721 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 16:47:22,728 - octoprint.plugins.telegram - INFO - Sending a message: 😭 Sian... touchscreen_stand.gcode failed 😭 with_image=True with_gif=False chatID= -464514632
+2020-05-17 16:47:29,095 - octoprint.plugins.telegram - INFO - Sending a message: 😭 Sian... touchscreen_stand.gcode failed 😭 with_image=True with_gif=False chatID= -414741643
+2020-05-17 16:47:30,793 - tornado.access - WARNING - 409 POST /api/files/local (192.168.1.123) 2678.89ms
+2020-05-17 16:47:35,206 - octoprint.plugins.telegram - INFO - Sending a message: 😭 Sian... touchscreen_stand.gcode failed 😭 with_image=True with_gif=False chatID= 70323754
+2020-05-17 16:47:40,991 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2020-05-17 16:47:50,133 - octoprint.filemanager.analysis - INFO - Starting analysis of local:touchscreen_stand.gcode
+2020-05-17 16:47:50,164 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: touchscreen_stand.gcode, owner: _api, user: _api
+2020-05-17 16:47:50,192 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-17 16:47:50,205 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: touchscreen_stand.gcode, owner: _api, user: _api
+2020-05-17 16:47:50,222 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-17 16:47:50,234 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 16:47:50,237 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-17 16:47:50,247 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -464514632
+2020-05-17 16:47:56,368 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -414741643
+2020-05-17 16:48:07,622 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= 70323754
+2020-05-17 16:50:38,647 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 16:51:59,335 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 17:06:59,337 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 17:21:59,339 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 17:36:59,344 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 17:51:59,345 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 18:06:59,347 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 18:21:59,350 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 18:36:59,357 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 18:51:59,358 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 19:06:59,370 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 19:21:59,374 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 19:22:17,985 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 19:22:19,724 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-17 19:22:20,155 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-17 19:22:22,820 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-17 19:36:59,377 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 19:51:59,379 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 20:06:59,381 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 20:21:59,382 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 20:36:59,385 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 20:51:59,388 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 20:58:43,529 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x65fb25f0>: Failed to establish a new connection: [Errno 113] No route to host',)). Waiting 2 minutes before trying again.
+2020-05-17 20:58:59,429 - octoprint.util.comm - INFO - Finished in 15069.240 s.
+2020-05-17 20:58:59,433 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2020-05-17 20:58:59,449 - octoprint.filemanager.analysis - INFO - Starting analysis of local:touchscreen_stand.gcode
+2020-05-17 20:58:59,491 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: touchscreen_stand.gcode, owner: _api
+2020-05-17 20:58:59,626 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2020-05-17 20:58:59,638 - octoprint.plugin - ERROR - Error while calling plugin printhistory
+Traceback (most recent call last):
+  File "/home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/__init__.py", line 219, in call_plugin
+    result = getattr(plugin, method)(*args, **kwargs)
+  File "/home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_printhistory/__init__.py", line 146, in on_event
+    return eventHandler.eventHandler(self, event, payload)
+  File "/home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_printhistory/eventHandler.py", line 110, in eventHandler
+    cur.execute("INSERT INTO print_history (fileName, note, filamentVolume, filamentLength, printTime, success, timestamp, parameters) VALUES (:fileName, :note, :filamentVolume, :filamentLength, :printTime, :success, :timestamp, :parameters)", currentFile)
+ProgrammingError: You did not supply a value for binding 3.
+2020-05-17 20:58:59,657 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 20:58:59,662 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= -464514632
+2020-05-17 20:59:05,815 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= -414741643
+2020-05-17 20:59:08,702 - octoprint.filemanager.analysis - INFO - Analysis of entry local:touchscreen_stand.gcode finished, needed 9.25s
+2020-05-17 20:59:11,946 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= 70323754
+2020-05-17 21:06:59,390 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 21:21:59,393 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 21:36:59,395 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 21:51:59,398 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 21:59:15,779 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2020-05-17 21:59:15,810 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: touchscreen_stand.gcode, owner: cairo, user: cairo
+2020-05-17 21:59:15,857 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2020-05-17 21:59:15,872 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-17 21:59:15,879 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -464514632
+2020-05-17 21:59:15,881 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2020-05-17 21:59:23,049 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= -414741643
+2020-05-17 21:59:29,526 - octoprint.plugins.telegram - INFO - Sending a message: 🚧👷 I am starting to print touchscreen_stand.gcode hor... 👷🚧 with_image=True with_gif=False chatID= 70323754
+2020-05-17 22:06:59,400 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 22:14:06,547 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x65f81970>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 22:21:59,402 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 22:36:59,405 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 22:51:59,408 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 23:06:59,416 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 23:21:59,423 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 23:36:53,892 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-17 23:36:59,425 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-17 23:44:30,251 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x65f8a2b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-17 23:51:59,427 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 00:06:59,434 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 00:21:59,436 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 00:36:59,438 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 00:51:59,440 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 01:06:59,444 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 01:21:59,447 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 01:36:59,450 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 01:51:59,453 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 02:06:59,457 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 02:14:33,058 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-18 02:20:36,106 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.1
+2020-05-18 02:20:36,505 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.1
+2020-05-18 02:20:36,899 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.1
+2020-05-18 02:21:32,319 - octoprint.util.comm - INFO - Finished in 15736.541 s.
+2020-05-18 02:21:32,321 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2020-05-18 02:21:32,335 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: touchscreen_stand.gcode, owner: cairo
+2020-05-18 02:21:32,381 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2020-05-18 02:21:32,641 - octoprint.plugins.telegram - INFO - An Exception in get final time : unsupported type for timedelta seconds component: str
+2020-05-18 02:21:32,646 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= -464514632
+2020-05-18 02:21:38,686 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= -414741643
+2020-05-18 02:21:44,747 - octoprint.plugins.telegram - INFO - Sending a message: ✨ Waseh! touchscreen_stand.gcode print finish liao! Ani-swee eh... \n ✨ with_image=True with_gif=False chatID= 70323754
+2020-05-18 02:21:59,460 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 02:36:01,198 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.1
+2020-05-18 02:36:59,462 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 02:48:09,744 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-18 02:48:11,585 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-18 02:48:11,974 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-18 02:48:19,746 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 6.2s
+2020-05-18 02:48:26,381 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 6.3s
+2020-05-18 02:48:33,602 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 6.1s
+2020-05-18 02:48:39,756 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 6.1s
+2020-05-18 02:48:45,985 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 6.1s
+2020-05-18 02:48:52,201 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2020-05-18 02:48:52,617 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-18 02:50:07,733 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-18 02:51:59,465 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 02:53:46,292 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-18 02:53:48,288 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-18 02:53:48,679 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-18 02:53:51,306 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-18 02:54:08,939 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-18 03:05:41,091 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-18 03:05:43,065 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-18 03:05:43,418 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.111
+2020-05-18 03:05:43,869 - octoprint.server.util.flask - INFO - Passively logging in user cairo from 192.168.1.111
+2020-05-18 03:05:46,128 - octoprint.server.util.sockjs - INFO - User cairo logged in on the socket from client 192.168.1.111
+2020-05-18 03:05:46,462 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-18 03:05:52,373 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.111
+2020-05-18 03:06:59,468 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-18 03:21:59,469 - octoprint.server.heartbeat - INFO - Server heartbeat <3

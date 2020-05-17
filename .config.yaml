@@ -1,0 +1,51 @@
+accessControl:
+  salt: aRMuQpaIQ8DTR53dwtHhcdp1rKD5X3BS
+api:
+  key: 22CC1DFDF92842F6AFA41AFDA74ECE58
+plugins:
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1535991600
+      _important:
+        read_until: 1521111600
+      _octopi:
+        read_until: 1527588900
+      _plugins:
+        read_until: 1537920000
+      _releases:
+        read_until: 1532527200
+  discovery:
+    upnpUuid: e1897012-21e5-496b-b3f5-2688bea29379
+  softwareupdate:
+    _config_version: 6
+    check_providers:
+      RepetierMaintenanceHelper: octoprint_finetunerptr
+      systemcommandeditor: eeprom_MPSelectMini
+printerProfiles:
+  default: _default
+serial:
+  autoconnect: true
+server:
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo shutdown -r now
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: true
+  pluginBlacklist:
+    enabled: true
+  secretKey: PMHEwCJzGRBStqdT8szJ491WJvsJtBHa
+  seenWizards:
+    corewizard: 3
+    cura: null
+system:
+  actions:
+  - action: stop
+    command: sudo service webcam stop
+    confirm: false
+    name: Stop Webcam
+webcam:
+  stream: http://158.140.136.216:8999/?action=stream

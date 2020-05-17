@@ -1,0 +1,82 @@
+print_history:
+- analysisFirstFilamentPrintTime: 16.16034432770175
+  analysisLastFilamentPrintTime: 14893.897918736586
+  analysisPrintTime: 14896.454411552457
+  compensatedPrintTime: 15229.328893117854
+  firstFilamentPrintTime: 835.7117777339954
+  lastFilamentPrintTime: 15669.765734980996
+  payload:
+    file: /home/pi/.octoprint/uploads/touchscreen_stand.gcode
+    filename: touchscreen_stand.gcode
+    name: touchscreen_stand.gcode
+    origin: local
+    owner: cairo
+    path: touchscreen_stand.gcode
+    size: 6578019
+    time: 15736.55557982
+  timestamp: 1589739692.514878
+- analysisFirstFilamentPrintTime: 16.16034432770175
+  analysisLastFilamentPrintTime: 13098.843342149457
+  analysisPrintTime: 13101.399834965328
+  compensatedPrintTime: 13435.857624136313
+  firstFilamentPrintTime: 866.9381357059999
+  lastFilamentPrintTime: 13895.770275518002
+  payload:
+    file: /home/pi/.octoprint/uploads/touchscreen_stand.gcode
+    filename: touchscreen_stand.gcode
+    name: touchscreen_stand.gcode
+    origin: local
+    owner: _api
+    path: touchscreen_stand.gcode
+    size: 2434781
+    time: 13962.867294520001
+  timestamp: 1589683751.728438
+- analysisFirstFilamentPrintTime: 16.160344327701978
+  analysisLastFilamentPrintTime: 1148.869976506793
+  analysisPrintTime: 1151.426469322664
+  compensatedPrintTime: 1739.5595063292556
+  firstFilamentPrintTime: 418.88303384499886
+  lastFilamentPrintTime: 1508.9150561299975
+  payload:
+    file: /home/pi/.octoprint/uploads/stringingTest.gcode
+    filename: stringingTest.gcode
+    name: stringingTest.gcode
+    origin: local
+    owner: _api
+    path: stringingTest.gcode
+    size: 962195
+    time: 1562.9756360799984
+  timestamp: 1588966382.584484
+- analysisFirstFilamentPrintTime: 16.160344327701978
+  analysisLastFilamentPrintTime: 1143.4189623608895
+  analysisPrintTime: 1146.011523041032
+  compensatedPrintTime: 1715.6147882703772
+  firstFilamentPrintTime: 745.738045727001
+  lastFilamentPrintTime: 1834.2693356109994
+  payload:
+    file: /home/pi/.octoprint/uploads/stringingTest.gcode
+    filename: stringingTest.gcode
+    name: stringingTest.gcode
+    origin: local
+    owner: _api
+    path: stringingTest.gcode
+    size: 962195
+    time: 1884.8720037290004
+  timestamp: 1588964579.952035
+- analysisFirstFilamentPrintTime: 16.160344327701978
+  analysisLastFilamentPrintTime: 1143.4217177834914
+  analysisPrintTime: 1146.014278463634
+  compensatedPrintTime: 1753.4724321997173
+  firstFilamentPrintTime: 694.6329777739993
+  lastFilamentPrintTime: 1783.1155810359996
+  payload:
+    file: /home/pi/.octoprint/uploads/stringingTest.gcode
+    filename: stringingTest.gcode
+    name: stringingTest.gcode
+    origin: local
+    owner: _api
+    path: stringingTest.gcode
+    size: 962195
+    time: 1833.696415307999
+  timestamp: 1588961168.941198
+version: 2.2.1

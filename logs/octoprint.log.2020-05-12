@@ -1,0 +1,150 @@
+2020-05-12 16:41:29,484 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 16:41:29,488 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2020-05-12 16:41:29,489 - octoprint.server - INFO - OctoPrint 1.3.12
+2020-05-12 16:41:29,498 - octoprint.plugin.core - INFO - 25 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  BetterHeaterTimeout (1.2.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_BetterHeaterTimeout
+|  Core Wizard (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Cost Plugin (0.1.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_cost
+|  Discovery (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  EEPROM Editor for MPSM (0.1.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_eeprom_MPSelectMini
+|  Error Tracking (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  FineTuneRptr (1.3.6.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_finetunerptr
+|  Firmware Updater (1.6.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_firmwareupdater
+|  Force Login (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  HeaterTimeout (0.0.3) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_HeaterTimeout
+|  Logging (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Octolapse (0.3.4) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_octolapse
+|  Pi Support Plugin (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Print History Plugin (1.2) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_printhistory
+|  Printer Safety Check (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  PrintTimeGenius Plugin (2.2.1) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_PrintTimeGenius
+|  Software Update (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Telegram Notifications (1.5.0) = /home/pi/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_telegram
+|  Virtual Printer (bundled) = /home/pi/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2020-05-12 16:41:29,524 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 918183936
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|  python:
+|    pip: '18.0'
+|    version: 2.7.13
+|    virtualenv: /home/pi/OctoPrint/venv
+2020-05-12 16:41:29,524 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2020-05-12 16:56:29,486 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 17:11:29,489 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 17:26:29,491 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 17:41:29,492 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 17:56:29,495 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 18:11:29,498 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 18:26:29,501 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 18:41:29,502 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 18:56:29,504 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 19:11:29,508 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 19:26:29,510 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 19:41:29,512 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 19:44:26,043 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6adb96b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-12 19:56:29,515 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 20:11:29,517 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 20:26:29,520 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 20:41:29,523 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 20:56:29,524 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 21:11:29,526 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 21:26:29,529 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 21:41:29,531 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 21:56:29,534 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 22:11:29,538 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 22:26:29,540 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 22:41:29,543 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 22:56:29,546 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 23:11:29,549 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 23:26:29,552 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 23:41:29,555 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-12 23:56:29,561 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 00:11:29,564 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 00:26:29,566 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 00:41:29,569 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 00:56:29,571 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 01:11:29,572 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 01:26:29,575 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 01:41:29,579 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 01:56:29,582 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 02:11:29,585 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 02:26:29,587 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 02:41:29,590 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 02:56:29,592 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 03:11:29,595 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 03:26:29,598 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 03:41:29,601 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 03:56:29,603 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 04:11:29,606 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 04:26:29,608 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 04:41:29,612 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 04:56:29,615 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 05:11:29,618 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 05:26:29,621 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 05:41:29,625 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 05:56:29,628 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 06:11:29,631 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 06:26:29,634 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 06:41:29,637 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 06:56:29,641 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 07:11:29,643 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 07:26:29,647 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 07:41:29,649 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 07:56:29,651 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 08:11:29,653 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 08:26:29,654 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 08:41:29,657 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 08:56:29,660 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 09:11:29,663 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 09:26:29,666 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 09:41:29,669 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 09:56:29,674 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 10:11:29,676 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 10:26:29,679 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 10:41:29,681 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 10:56:29,684 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 11:11:29,687 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 11:26:29,689 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 11:41:29,691 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 11:56:29,694 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 12:04:17,248 - tornado.access - WARNING - 404 GET http://clientapi.ipip.net/echo.php?info=20200513120417 (139.162.83.10) 15.55ms
+2020-05-13 12:11:29,698 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 12:26:29,702 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 12:41:29,705 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 12:56:29,707 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 13:11:29,708 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 13:25:34,127 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6ab49090>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 13:26:29,712 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 13:41:29,715 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 13:56:29,718 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 14:11:29,721 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 14:19:00,608 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6a0ff530>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 14:26:29,723 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 14:30:08,639 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6adaa210>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 14:41:29,726 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 14:56:29,728 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 15:11:29,731 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 15:14:45,240 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6adb9b30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 15:21:10,438 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6a0ffe10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 15:23:50,533 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6adaafb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 15:26:29,734 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 15:26:30,605 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6adaa990>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 15:29:10,698 - octoprint.plugins.telegram.listener - ERROR - Setting status: Got an exception while trying to connect to telegram API: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68/getUpdates?timeout=30&offset=1 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6adaacf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)). Waiting 2 minutes before trying again.
+2020-05-13 15:41:29,737 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 15:56:29,739 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 16:11:29,741 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2020-05-13 16:26:29,745 - octoprint.server.heartbeat - INFO - Server heartbeat <3

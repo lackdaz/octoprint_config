@@ -1,0 +1,261 @@
+accessControl:
+  salt: aRMuQpaIQ8DTR53dwtHhcdp1rKD5X3BS
+api:
+  key: 22CC1DFDF92842F6AFA41AFDA74ECE58
+controls:
+- children:
+  - command: M104 S225
+    name: Preheat PLA
+  - commands:
+    - M117 Moving and heating Extr...
+    - M104 S225
+    - G28
+    - G90
+    - G1 X100 Z38.2 F300
+    - M400
+    - M117 Move Complete!
+    name: Move
+  - commands:
+    - M117 Heating ext...
+    - M109 S225
+    - G91
+    - M117 Retracting Filament
+    - G1 E-60 F300
+    - G90
+    - M400
+    - M117 Add Filament now
+    name: Filament out
+  - commands:
+    - M109 S225
+    - G91
+    - M117 Extruding 55mm
+    - G1 E60 F200
+    - G90
+    - G92 E0
+    - M400
+    - M117 Check for ooze
+    name: Filament in
+  layout: horizontal
+  name: Filament Change
+  type: section
+- children:
+  - commands:
+    - M117 Moving...
+    - G28
+    - G90
+    - G1 X100 Y50 Z67.2 F300
+    - M400
+    - M117 Move Complete!
+    name: Move
+  - commands:
+    - M109 S225
+    - G91
+    - M117 Extruding 100mm
+    - G1 E100 F90
+    - G90
+    - M400
+    - G92 E0
+    - M117 Check measurements
+    name: Extrude 100
+  - commands:
+    - M104 S225
+    - M106 S169
+    - M400
+    - M117 PID Tune @75%
+    name: PID Tune (75%)
+  - commands:
+    - M104 S225
+    - M106 S225
+    - M400
+    - M117 PID Tune @100%
+    name: PID Tune (100%)
+  - commands:
+    - M117 Moving...
+    - G28
+    - G90
+    - G1 X100 Z16.2 F300
+    - M400
+    - M117 Insert z-calibration columns
+    name: Z-calibrate
+  layout: horizontal
+  name: Calibration
+- children:
+  - command: M80
+    name: Power On
+  - command: M81
+    name: Power Off
+  layout: horizontal
+  name: PSU
+plugins:
+  PrintTimeGenius:
+    print_history:
+    - analysisFirstFilamentPrintTime: 22.316119349783207
+      analysisLastFilamentPrintTime: 833.3983671246165
+      analysisPrintTime: 837.3619291386804
+      compensatedPrintTime: 1245.896809147445
+      firstFilamentPrintTime: 49.90869688987732
+      lastFilamentPrintTime: 1066.5687808990479
+      payload:
+        file: /home/pi/.octoprint/uploads/stringingTest.gcode
+        filename: stringingTest.gcode
+        name: stringingTest.gcode
+        origin: local
+        path: stringingTest.gcode
+        size: 932794
+        time: 1106.751643896103
+      timestamp: 1549355330.280598
+    - analysisFirstFilamentPrintTime: 22.316119349783207
+      analysisLastFilamentPrintTime: 833.4096157185422
+      analysisPrintTime: 837.3735528263795
+      compensatedPrintTime: 1239.0312875864163
+      firstFilamentPrintTime: 235.55507111549377
+      lastFilamentPrintTime: 1250.2278549671173
+      payload:
+        file: /home/pi/.octoprint/uploads/stringingTest.gcode
+        filename: stringingTest.gcode
+        name: stringingTest.gcode
+        origin: local
+        path: stringingTest.gcode
+        size: 932795
+        time: 1290.3115620613098
+      timestamp: 1548757445.667215
+    - analysisFirstFilamentPrintTime: 22.316119349783207
+      analysisLastFilamentPrintTime: 833.4096157185422
+      analysisPrintTime: 837.3735528263795
+      compensatedPrintTime: 1190.4407977449732
+      firstFilamentPrintTime: 234.16183996200562
+      lastFilamentPrintTime: 1248.7547709941864
+      payload:
+        file: /home/pi/.octoprint/uploads/stringingTest.gcode
+        filename: stringingTest.gcode
+        name: stringingTest.gcode
+        origin: local
+        path: stringingTest.gcode
+        size: 932795
+        time: 1288.7101209163666
+      timestamp: 1548754747.500632
+    - analysisFirstFilamentPrintTime: 22.316119349783207
+      analysisLastFilamentPrintTime: 833.4024916090559
+      analysisPrintTime: 837.3660536231198
+      compensatedPrintTime: 1161.2129182773363
+      firstFilamentPrintTime: 235.5930778980255
+      lastFilamentPrintTime: 1249.8223280906677
+      payload:
+        file: /home/pi/.octoprint/uploads/stringingTest.gcode
+        filename: stringingTest.gcode
+        name: stringingTest.gcode
+        origin: local
+        path: stringingTest.gcode
+        size: 932795
+        time: 1290.0831351280212
+      timestamp: 1548752061.938225
+    - analysisFirstFilamentPrintTime: 22.316119349783207
+      analysisLastFilamentPrintTime: 833.3983671246165
+      analysisPrintTime: 837.3619291386804
+      compensatedPrintTime: 1170.6977378014933
+      firstFilamentPrintTime: 55.953563928604126
+      lastFilamentPrintTime: 1071.069993019104
+      payload:
+        file: /home/pi/.octoprint/uploads/stringingTest.gcode
+        filename: stringingTest.gcode
+        name: stringingTest.gcode
+        origin: local
+        path: stringingTest.gcode
+        size: 932795
+        time: 1111.1556088924408
+      timestamp: 1548742123.113966
+  _disabled:
+  - cost
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1545132000
+      _important:
+        read_until: 1521111600
+      _octopi:
+        read_until: 1527588900
+      _plugins:
+        read_until: 1546387200
+      _releases:
+        read_until: 1544449800
+  cost:
+    cost_per_time: '0.0232'
+    cost_per_weight: '15'
+    currency: $
+  discovery:
+    upnpUuid: e1897012-21e5-496b-b3f5-2688bea29379
+  filamentmanager:
+    _config_version: 1
+    database:
+      clientID: 4815068a-0aae-11e9-b794-b827eb42be1a
+  softwareupdate:
+    _config_version: 6
+    check_providers:
+      PrintTimeGenius: PrintTimeGenius
+      RepetierMaintenanceHelper: octoprint_finetunerptr
+      cost: cost
+      filamentmanager: filamentmanager
+      firmwareupdater: firmwareupdater
+      octolapse: octolapse
+      printhistory: printhistory
+      systemcommandeditor: eeprom_MPSelectMini
+      telegram: telegram
+      youtubelive: youtubelive
+  telegram:
+    _config_version: 3
+    chats: {}
+    messages:
+      StatusPrinting:
+        combined: true
+  tracking:
+    enabled: false
+  youtubelive:
+    channel_id: -d5_8lyZy7bqjm-DdZH-7Q
+printerProfiles:
+  default: _default
+serial:
+  autoconnect: true
+server:
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo shutdown -r now
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: true
+    interval: 1800
+  pluginBlacklist:
+    enabled: true
+  secretKey: PMHEwCJzGRBStqdT8szJ491WJvsJtBHa
+  seenWizards:
+    corewizard: 3
+    cura: null
+    telegram: 1
+    tracking: null
+system:
+  actions:
+  - action: streamrestart
+    command: sudo service webcam restart
+    confirm: false
+    name: Restart webcam stream
+  - action: streamoff
+    command: sudo service webcam stop
+    confirm: false
+    name: Stop webcam stream
+  - action: lighton
+    async: true
+    command: /home/pi/lighton.sh
+    confirm: false
+    name: Turn printer lights on (WIP)
+  - action: lightoff
+    async: true
+    command: python /home/pi/lightoff.py
+    confirm: false
+    name: Turn printer lights off (WIP)
+temperature:
+  cutoff: 60
+webcam:
+  ffmpeg: /usr/bin/ffmpeg
+  flipH: true
+  stream: http://158.140.136.216:8999/?action=stream

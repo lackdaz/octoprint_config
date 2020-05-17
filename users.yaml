@@ -1,0 +1,22 @@
+anna:
+    active: true
+    apikey: null
+    groups:
+    - users
+    password: 4c20066989e91eea4125836e15522e552fff25c4a285d9585cd09f41c138189b0f7619191b27c15c4bb6e5f40a446492e8f69be8a2eb3b44ef660aff122b1339
+    permissions: []
+    roles:
+    - user
+    settings: {}
+cairo:
+    active: true
+    apikey: null
+    groups:
+    - admins
+    - users
+    password: 9848c44ab3555aeadc16f51be36d29ae9d9de4ae58dd6ad331f78b6fe8a8b6ff01076e9f8ddf2f24e293a1a16a7ce74e40a9fd0866f353fc3de852fbd0f9a53a
+    permissions: []
+    roles:
+    - user
+    - admin
+    settings: {}

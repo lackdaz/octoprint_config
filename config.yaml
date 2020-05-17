@@ -1,0 +1,453 @@
+accessControl:
+  salt: aRMuQpaIQ8DTR53dwtHhcdp1rKD5X3BS
+api:
+  key: 4B9F0C1561C34405BE062DAB0E43C5AF
+controls:
+- children:
+  - command: M104 S225
+    name: Preheat PLA
+  - commands:
+    - M117 Moving and heating Extr...
+    - M104 S225
+    - G28
+    - G90
+    - G1 X100 Z38.2 F300
+    - M400
+    - M117 Move Complete!
+    name: Move
+  - commands:
+    - M117 Heating ext...
+    - M109 S225
+    - G91
+    - M117 Retracting Filament
+    - G1 E-60 F300
+    - G90
+    - M400
+    - M117 Add Filament now
+    name: Filament out
+  - commands:
+    - M109 S225
+    - G91
+    - M117 Extruding 55mm
+    - G1 E60 F200
+    - G90
+    - G92 E0
+    - M400
+    - M117 Check for ooze
+    name: Filament in
+  layout: horizontal
+  name: Filament Change
+  type: section
+- children:
+  - commands:
+    - M117 Moving...
+    - G28
+    - G90
+    - G1 X100 Y50 Z67.2 F300
+    - M400
+    - M117 Move Complete!
+    name: Move
+  - commands:
+    - M109 S225
+    - G91
+    - M117 Extruding 100mm
+    - G1 E100 F90
+    - G90
+    - M400
+    - G92 E0
+    - M117 Check measurements
+    name: Extrude 100
+  - commands:
+    - M104 S225
+    - M106 S169
+    - M400
+    - M117 PID Tune @75%
+    name: PID Tune (75%)
+  - commands:
+    - M104 S225
+    - M106 S225
+    - M400
+    - M117 PID Tune @100%
+    name: PID Tune (100%)
+  - commands:
+    - M117 Moving...
+    - G28
+    - G90
+    - G1 X100 Z16.2 F300
+    - M400
+    - M117 Insert z-calibration columns
+    name: Z-calibrate
+  layout: horizontal
+  name: Calibration
+- children:
+  - command: M80
+    name: Power On
+  - command: M81
+    name: Power Off
+  layout: horizontal
+  name: PSU
+plugins:
+  BetterHeaterTimeout:
+    _config_version: 2
+    enabled: false
+  HeaterTimeout:
+    _config_version: 2
+    enabled: true
+    timeout: 900
+  PrintTimeGenius:
+    print_history:
+    - analysisFirstFilamentPrintTime: 16.043294393512042
+      analysisLastFilamentPrintTime: 10123.965340708142
+      analysisPrintTime: 10126.376714647522
+      compensatedPrintTime: 10833.682022513334
+      firstFilamentPrintTime: 302.6716830730438
+      lastFilamentPrintTime: 12410.674324989319
+      payload:
+        file: /home/pi/.octoprint/uploads/Snail_Trap_20CM.gcode
+        filename: Snail_Trap_20CM.gcode
+        name: Snail_Trap_20CM.gcode
+        origin: local
+        path: Snail_Trap_20CM.gcode
+        size: 6336546
+        time: 12430.974946975708
+      timestamp: 1584379623.515559
+    - analysisFirstFilamentPrintTime: 16.043294393512042
+      analysisLastFilamentPrintTime: 24811.192638870696
+      analysisPrintTime: 24813.604012810072
+      compensatedPrintTime: 26203.570782995288
+      firstFilamentPrintTime: 80.44856381416321
+      lastFilamentPrintTime: 26057.330845832825
+      payload:
+        file: /home/pi/.octoprint/uploads/dyson_super_sonic_mount.gcode
+        filename: dyson_super_sonic_mount.gcode
+        name: dyson_super_sonic_mount.gcode
+        origin: local
+        path: dyson_super_sonic_mount.gcode
+        size: 8293151
+        time: 26101.704165935516
+      timestamp: 1584189963.337619
+    - analysisFirstFilamentPrintTime: 16.043294393512042
+      analysisLastFilamentPrintTime: 20730.2418240916
+      analysisPrintTime: 20732.653198030977
+      compensatedPrintTime: 21864.917014581377
+      firstFilamentPrintTime: 553.6414740085602
+      lastFilamentPrintTime: 22162.883531093597
+      payload:
+        file: /home/pi/.octoprint/uploads/dyson-v8-connector.gcode
+        filename: dyson-v8-connector.gcode
+        name: dyson-v8-connector.gcode
+        origin: local
+        path: dyson-v8-connector.gcode
+        size: 16900963
+        time: 22170.118901014328
+      timestamp: 1584140598.171631
+    - analysisFirstFilamentPrintTime: 21.991083537678605
+      analysisLastFilamentPrintTime: 2976.163663282022
+      analysisPrintTime: 2978.5750372214
+      compensatedPrintTime: 3280.4319012780193
+      firstFilamentPrintTime: 239.6220600605011
+      lastFilamentPrintTime: 3388.302742958069
+      payload:
+        file: /home/pi/.octoprint/uploads/c0eef102-e8b7-4727-a40f-98a86d8b6033.gcode
+        filename: c0eef102-e8b7-4727-a40f-98a86d8b6033.gcode
+        name: c0eef102-e8b7-4727-a40f-98a86d8b6033.gcode
+        origin: local
+        path: c0eef102-e8b7-4727-a40f-98a86d8b6033.gcode
+        size: 3043735
+        time: 3399.489865064621
+      timestamp: 1583429990.529154
+    - analysisFirstFilamentPrintTime: 21.99108353767849
+      analysisLastFilamentPrintTime: 1017.6560207400865
+      analysisPrintTime: 1020.0673946794651
+      compensatedPrintTime: 1341.310895876344
+      firstFilamentPrintTime: 218.72807502746582
+      lastFilamentPrintTime: 1234.3534660339355
+      payload:
+        file: /home/pi/.octoprint/uploads/bbdf4049-1625-406d-a448-ab224d994c79.gcode
+        filename: bbdf4049-1625-406d-a448-ab224d994c79.gcode
+        name: bbdf4049-1625-406d-a448-ab224d994c79.gcode
+        origin: local
+        path: bbdf4049-1625-406d-a448-ab224d994c79.gcode
+        size: 1047057
+        time: 1270.4682428836823
+      timestamp: 1583426435.96022
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1589460900
+      _important:
+        read_until: 1521111600
+      _octopi:
+        read_until: 1573722900
+      _plugins:
+        read_until: 1588827600
+      _releases:
+        read_until: 1583322300
+  cost:
+    cost_per_time: '0.0232'
+    cost_per_weight: '15'
+    currency: $
+  discovery:
+    upnpUuid: e1897012-21e5-496b-b3f5-2688bea29379
+  errortracking:
+    unique_id: 69752ac1-4637-48ad-8b5a-dba1d3c75c6d
+  filamentmanager:
+    _config_version: 1
+    database:
+      clientID: 4815068a-0aae-11e9-b794-b827eb42be1a
+  softwareupdate:
+    _config_version: 7
+    check_providers:
+      BetterHeaterTimeout: BetterHeaterTimeout
+      PrintTimeGenius: PrintTimeGenius
+      RepetierMaintenanceHelper: octoprint_finetunerptr
+      cost: cost
+      emergencyaction: HeaterTimeout
+      firmwareupdater: firmwareupdater
+      octolapse: octolapse
+      printhistory: printhistory
+      systemcommandeditor: eeprom_MPSelectMini
+      telegram: telegram
+  telegram:
+    _config_version: 4
+    chats:
+      '-414741643':
+        accept_commands: true
+        allow_users: false
+        commands:
+          /abort: true
+          /con: true
+          /ctrl: true
+          /dontshutup: true
+          /filament: true
+          /files: true
+          /gif: true
+          /help: false
+          /print: true
+          /settings: true
+          /shutup: true
+          /status: true
+          /supergif: true
+          /sys: true
+          /test: false
+          /togglepause: true
+          /tune: true
+          /upload: true
+          /user: true
+          'No': false
+          'Yes': false
+        id: '-414741643'
+        image: /plugin/telegram/img/static/group.jpg
+        new: false
+        newUsr: false
+        notifications:
+          PrintDone: true
+          PrintFailed: true
+          PrintPaused: true
+          PrintResumed: true
+          PrintStarted: true
+          PrinterShutdown: true
+          PrinterStart: true
+          StatusNotPrinting: false
+          StatusPrinting: false
+          ZChange: false
+        private: false
+        send_notifications: true
+        title: Still Lane
+        type: GROUP
+      '-464514632':
+        accept_commands: true
+        allow_users: false
+        commands:
+          /abort: true
+          /con: true
+          /ctrl: true
+          /dontshutup: true
+          /filament: true
+          /files: true
+          /gif: true
+          /help: false
+          /print: true
+          /settings: true
+          /shutup: true
+          /status: true
+          /supergif: true
+          /sys: true
+          /test: false
+          /togglepause: true
+          /tune: true
+          /upload: true
+          /user: true
+          'No': false
+          'Yes': false
+        id: '-464514632'
+        image: /plugin/telegram/img/static/group.jpg
+        new: false
+        newUsr: false
+        notifications:
+          PrintDone: true
+          PrintFailed: true
+          PrintPaused: true
+          PrintResumed: true
+          PrintStarted: true
+          PrinterShutdown: true
+          PrinterStart: true
+          StatusNotPrinting: false
+          StatusPrinting: false
+          ZChange: false
+        private: false
+        send_notifications: true
+        title: Printer Test
+        type: GROUP
+      '70323754':
+        accept_commands: true
+        allow_users: false
+        commands:
+          /abort: true
+          /con: true
+          /ctrl: true
+          /dontshutup: true
+          /filament: true
+          /files: true
+          /gif: true
+          /help: false
+          /print: true
+          /settings: true
+          /shutup: true
+          /status: true
+          /supergif: true
+          /sys: true
+          /test: false
+          /togglepause: true
+          /tune: true
+          /upload: true
+          /user: true
+          'No': false
+          'Yes': false
+        id: '70323754'
+        image: /plugin/telegram/img/user/pic70323754.jpg
+        new: false
+        newUsr: false
+        notifications:
+          PrintDone: true
+          PrintFailed: true
+          PrintPaused: true
+          PrintResumed: true
+          PrintStarted: true
+          PrinterShutdown: true
+          PrinterStart: true
+          StatusNotPrinting: false
+          StatusPrinting: false
+          ZChange: false
+        private: true
+        send_notifications: true
+        title: Seth - Loh - @saitorama
+        type: PRIVATE
+    messages:
+      PrintDone:
+        text: "{emo:sparkles} Waseh! {file} print finish liao! Ani-swee eh... \n {emo:sparkles}"
+      PrintFailed:
+        text: '{emo:loudly crying face} Sian... {file} failed {emo:loudly crying face}'
+      PrintResumed:
+        image: false
+      PrintStarted:
+        text: '{emo:construction sign}{emo:construction worker} I am starting to print
+          {file} hor... {emo:construction worker}{emo:construction sign}'
+      PrinterShutdown:
+        text: '{emo:octopus} {emo:shutdown} I zhao hor? Byebye...'
+      PrinterStart:
+        image: true
+        text: '{emo:guardsman} Eh I ready leh, what you want to print? Else I''m going
+          to just zhuo bo {emo:guardsman}'
+      StatusNotPrinting:
+        text: 'I''m not printing lah... I like to zhuo bo like this --> {emo:moyai}{emo:moyai}{emo:moyai}
+
+          Bed {bed_temp}/{bed_target}, Extruder {e1_temp}/{e1_target}.'
+      StatusPrinting:
+        combined: true
+      ZChange:
+        text: 'SMLJ?
+
+          I printing at Z={z}.
+
+          Bed {bed_temp}/{bed_target}, Extruder {e1_temp}/{e1_target}.
+
+          {time_done}, {percent}%% done, {time_left} remaining.
+
+          Completed time {time_finish}.'
+    token: 998982659:AAFB5ROlwhOUctUSNeianD100iC9tgPBQ68
+  tracking:
+    enabled: false
+    unique_id: 6f05154b-6251-4ae6-a09b-cbf89c1a62fb
+printerProfiles:
+  default: _default
+serial:
+  autoconnect: true
+  baudrate: 115200
+  port: /dev/ttyACM0
+server:
+  allowFraming: true
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo shutdown -r now
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: true
+    interval: 1800
+  pluginBlacklist:
+    enabled: true
+  secretKey: PMHEwCJzGRBStqdT8szJ491WJvsJtBHa
+  seenWizards:
+    corewizard: 3
+    cura: null
+    telegram: 1
+    tracking: null
+system:
+  actions:
+  - action: streamrestart
+    command: sudo service webcam restart
+    confirm: false
+    name: Restart webcam stream
+  - action: streamoff
+    command: sudo service webcam stop
+    confirm: false
+    name: Stop webcam stream
+  - action: printeron
+    command: sudo uhubctl -l 1-1 -p 2 -a 1
+    confirm: false
+    name: Turn printer board on
+  - action: printeroff
+    command: sudo uhubctl -l 1-1 -p 2 -a 0
+    confirm: You are about to turn off the board. This will interrupt any prints.
+    name: Turn printer board off
+  - action: printerrestart
+    command: sudo uhubctl -l 1-1 -p 2 -a 0 -r 100 && sudo uhubctl -l 1-1 -p 2 -a 1
+    confirm: You are about to turn off the board. This will interrupt any prints
+    name: Restart printer board
+  - action: lighton
+    async: true
+    command: /home/pi/lighton.sh
+    confirm: false
+    name: Turn printer lights on (WIP)
+  - action: lightoff
+    async: true
+    command: python /home/pi/lightoff.py
+    confirm: false
+    name: Turn printer lights off (WIP)
+temperature:
+  cutoff: 60
+  profiles:
+  - bed: 100
+    chamber: null
+    extruder: 210
+    name: ABS
+  - bed: 60
+    chamber: null
+    extruder: 180
+    name: PLA
+webcam:
+  ffmpeg: /usr/bin/ffmpeg
+  snapshot: http://192.168.1.109:8080/?action=snapshot
+  stream: http://192.168.1.109:8080/?action=stream
