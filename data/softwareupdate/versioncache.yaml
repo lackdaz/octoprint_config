@@ -1,0 +1,17 @@
+__version: 1.4.0
+octoprint:
+  available: false
+  error: null
+  hash: e452dba18a059affaf99d9647bb73af3
+  information:
+    local:
+      name: 1.4.0
+      value: 1.4.0
+    needs_online: true
+    remote:
+      name: '?'
+      release_notes: null
+      value: '?'
+  online: false
+  possible: false
+  timestamp: 1589742635.459684

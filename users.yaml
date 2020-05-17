@@ -1,0 +1,12 @@
+seth:
+    active: true
+    apikey: null
+    groups:
+    - admins
+    - users
+    password: 1f958eabd235fec0f1d5117eb6c10ec6b9f1339a664fae45be84383e038598dccccfd8bc4f8c4e4bf7cae8699b894cdb3b0759679beca1f08a877ec21dbc4a05
+    permissions: []
+    roles:
+    - user
+    - admin
+    settings: {}
